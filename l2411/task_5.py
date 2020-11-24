@@ -11,9 +11,9 @@ def circles(turtle, radius, length):
 
     for i in range(length):
         turtle.circle(radius)
-        t.rt(360 / length)
+        turtle.rt(360 / length)
 
-    t.up()
+    turtle.up()
 
 circles(t, 50, 10)
 
