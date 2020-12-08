@@ -9,7 +9,7 @@ Column1 = [
     'С другой стороны',
     'Поэтому',
     'И, тем не менее,'
-];
+]
 Column2 = [
     'криптографические схемы',
     'держатели токенов',
@@ -46,3 +46,8 @@ Column4 = [
     'иерархических кошельков.',
     'растущих комиссий за транзакции.'
 ]
+from random import choice
+
+for phrase in range(4):
+    print(f'{choice(Column1)} {choice(Column2)} {choice(Column3)} {choice(Column4)}')
+    print()
